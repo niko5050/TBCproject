@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Re-Movie Club Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../cs/reset.css">
+  <link rel="stylesheet" href="../cs/screening-club.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap" rel="stylesheet"/>
+  <link rel="icon" href="../images/black-hole.png">
+
+</head>
+<body>
+  <div class="background"></div>
+
+  <div class="login-box">
+  <h2>🎬 Re-Movie Club Login</h2>
+  <form onsubmit="joinClub(event)">
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit">Enter Club</button>
+  </form>
+</div>
+
+<script>
+  function joinClub(event) {
+    event.preventDefault(); // prevent form from submitting/reloading
+
+    const username = document.getElementById('username').value.trim();
+    const password = document.getElementById('password').value.trim();
+
+    if (!username || !password) {
+      alert('Please fill in both username and password!');
+      return;
+    }
+
+    alert('🎉 You successfully joined the club!');
+    // Here you can also reset the form or do other things
+  }
+  function joinClub(event) {
+  event.preventDefault();
+
+  const username = document.getElementById('username').value.trim();
+  const password = document.getElementById('password').value.trim();
+
+  if (!username || !password) {
+    alert('Please fill in both username and password!');
+    return;
+  }
+
+  alert('🎉 You successfully joined the club!');
+  window.location.href = 'services.html';  // Redirect after OK
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actors | Re-Movies</title>
+      <link rel="stylesheet" href="../cs/reset.css">
+    <link rel="stylesheet" href="../cs/characters.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/black-hole.png">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fjalla+One&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+       <div class="nav-bar">
+            <nav>
+                <ul class="main-ul">
+                    <li class="navigation-li main"><a href="../index.html"> <img src="../images/house-solid (1).svg" alt="home" class="nav-icon"></a></li>
+                    <li class="navigation-li movies"><a class="active" href="characters.html">Actors</a></li>
+                    <li class="navigation-li simbolism"><a href="simbolism.html">Symbolism</a></li>
+                    <li class="navigation-li news" ><a href="news.html">News</a></li>
+                    <li class="navigation-li aboutus"><a href="aboutus.html">About us</a></li>
+                    <li class="navigation-li services"><a href="services.html">Services</a></li>
+                    <li class="navigation-li contact"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="main-title">Iconic Nolan Characters</h1>
+
+        <script>
+  const aboutTitle = document.querySelector('.main-title');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  });
+
+  observer.observe(aboutTitle);
+</script>
+
+        <section>
+        <div class="character-images">
+            <section class="main-section-1">
+                <div class="image-cooper">
+                    <img class="box1" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/52121bf3-f787-445d-b080-00e90f4ab9a1/d8p9fgp-760f7d29-54fa-4320-ab18-1658e44738e5.jpg/v1/fit/w_600,h_825,q_70,strp/cooper__interstellar__matthew_mcconaughey_by_cfischer83_d8p9fgp-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODI1IiwicGF0aCI6IlwvZlwvNTIxMjFiZjMtZjc4Ny00NDVkLWIwODAtMDBlOTBmNGFiOWExXC9kOHA5ZmdwLTc2MGY3ZDI5LTU0ZmEtNDMyMC1hYjE4LTE2NThlNDQ3MzhlNS5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.OTM2DfmWSwAHNyHlNBFmzA2Flw1E5OZkELgZw1C-tlI" alt="">
+                     <h3>Joseph A. Cooper</h3>
+                     <p>Real name - Matthew McConaughey.  Cooper is a former <br>
+                        NASA pilot turned reluctant farmer in "Interstellar". <br>
+                        Haunted by the loss of humanity’s future and the <br>
+                        weight of his daughter Murph’s disappointment,<br>
+                        he embarks on a mission beyond time and space. <br>
+                        His character represents sacrifice, parental love, <br>
+                        and the relentless pursuit of survival across galaxies.</p>
+                </div>
+                <div class="image-dicaprio">
+                    <img class="box2" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4b57fde5-5ea5-40b4-b462-fe3be5a882ab/dk2lksn-2c503128-cc4f-4339-afc7-b58084bc963c.jpg/v1/fit/w_828,h_1104,q_70,strp/the_portrait_drawing_of_leonardo_dicaprio_by_ikuzui_dk2lksn-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIwMyIsInBhdGgiOiJcL2ZcLzRiNTdmZGU1LTVlYTUtNDBiNC1iNDYyLWZlM2JlNWE4ODJhYlwvZGsybGtzbi0yYzUwMzEyOC1jYzRmLTQzMzktYWZjNy1iNTgwODRiYzk2M2MuanBnIiwid2lkdGgiOiI8PTkwMiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.PSmMRy5RRfh5KaX8OCBUre1hozH2QKtaqmrg8HfdhNM" alt="">
+                    <h3>Dom Cobb</h3>
+                     <p>Real name – Leonardo DiCaprio. Cobb is a skilled <br>extractor 
+                        in "Inception", capable of stealing secrets from<br> people’s 
+                        subconscious through shared dreams. Burdened by<br> guilt over his
+                        wife Mal’s death, Cobb battles inner demons while<br> navigating 
+                        layered dreamscapes. His journey is one of <br>redemption, 
+                        self-discovery, and the blurry line between<br> reality and imagination.
+                </div>
+                <div class="image-darknight">
+                    <img class="box3" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/52121bf3-f787-445d-b080-00e90f4ab9a1/d95v96k-b3db81be-fac1-4880-a07d-2236bd4c432e.jpg/v1/fit/w_600,h_842,q_70,strp/batman___the_dark_knight_by_cfischer83_d95v96k-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQyIiwicGF0aCI6IlwvZlwvNTIxMjFiZjMtZjc4Ny00NDVkLWIwODAtMDBlOTBmNGFiOWExXC9kOTV2OTZrLWIzZGI4MWJlLWZhYzEtNDg4MC1hMDdkLTIyMzZiZDRjNDMyZS5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.DcTnntMmcqcL1cy8JvugWB-JJTyyI4wCjmDvf13KggA" alt="">
+                    <h3>Bruce Wayne / Batman</h3>
+                     <p>Real name – Christian Bale. In Nolan’s <br>"The Dark Knight" trilogy,<br> 
+                        Bruce Wayne is Gotham’s billionaire vigilante<br> who dons the mask of
+                        Batman to bring justice <br>to a corrupt city.<br>
+                        Torn between vengeance and morality, <br>he represents 
+                        the thin line between heroism and obsession. <br>Batman’s
+                        story is one of pain, duty, and hope <br>reborn from darkness.</p>
+                </div>
+            </section>
+            <section  class="main-section-2">
+                <div class="image-opppenheimer">
+                    <img class="box4" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/92fdce84-2343-426d-aee3-123c84629929/dim3hll-a0f062b1-1f63-4b47-bf2c-08c55aeac5a9.jpg/v1/fit/w_828,h_1104,q_70,strp/portrait_drawing_of_j__robert_oppenheimer_by_gumelarizqy_dim3hll-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcwNyIsInBhdGgiOiJcL2ZcLzkyZmRjZTg0LTIzNDMtNDI2ZC1hZWUzLTEyM2M4NDYyOTkyOVwvZGltM2hsbC1hMGYwNjJiMS0xZjYzLTRiNDctYmYyYy0wOGM1NWFlYWM1YTkuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.LCaxhE7mf1wLR63iwHC0aMEJGMBiJN338cNvelrNS-A" alt="">
+                    <h3>Leonard Shelby</h3>
+                     <p>Real name – Guy Pearce. Leonard is the <br> memory-impaired 
+                        protagonist of *Memento*, determined <br>to find his wife’s 
+                        killer despite his <br>short-term memory loss. Using tattoos and
+                        photos as clues, he spirals into a distorted<br> reality where truth
+                        is a puzzle and revenge <br>becomes a cycle. His story questions
+                        the reliability of memory and the consequence<br> of self-deception.</p>
+
+                </div>
+                <div class="image-prestige">
+                    <img class="box5" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ed8c4f68-3c54-4423-ad63-2f9efd40be86/d5l1t8m-b0b35552-36b2-4591-a993-15646b364288.jpg/v1/fill/w_853,h_937,q_70,strp/hugh_jackman_by_voncedie_d5l1t8m-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTg4IiwicGF0aCI6IlwvZlwvZWQ4YzRmNjgtM2M1NC00NDIzLWFkNjMtMmY5ZWZkNDBiZTg2XC9kNWwxdDhtLWIwYjM1NTUyLTM2YjItNDU5MS1hOTkzLTE1NjQ2YjM2NDI4OC5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.fv11VRKbrLrB-8r930Ndq0FdTrLFasRUBH0pmTU5ah0" alt="">
+                    <h3>Robert Angier</h3>
+                     <p>Real name – Hugh Jackman. In *The Prestige*, <br>Robert Angier is 
+                        a charismatic magician obsessed with<br> surpassing his rival, Alfred Borden. 
+                        His quest for the ultimate illusion <br>drives him to sacrifice love, ethics,
+                        and even his identity. Angier’s arc <br>explores the cost of obsession and the
+                        blurred<br> line between illusion and reality.</p>
+                    
+                </div>
+                <div class="image-memento">
+                    <img class="box6" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/d8c5e4fb-4b81-416f-8a4b-a48189893053/ddtktl4-f166b5d8-0bcb-4068-aaf2-8d9b7c65f716.png" alt="">
+                    <h3> Robert Oppenheimer</h3>
+                     <p>Real name – Cillian Murphy. In *Oppenheimer*, <br>he is portrayed
+                        as the brilliant but tormented physicist<br> who led the creation of
+                        the atomic bomb. His genius was<br> shadowed by moral conflict and the
+                        heavy burden of his<br> invention’s consequences. Oppenheimer’s story
+                        is one of<br> ambition,guilt, and the irreversible impact of <br>
+                        human intellect on history.</p>
+                </div>
+           </section>
+        </div>
+        </section>
+    </main>
+   
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <p>© 2025 Re-Movie. All rights reserved.</p>
+      <p>Contact: nikoloz.kveladzete03@geolab.edu.ge | +995 551 533 502</p>
+      <p>Address: Freedom Square, Tbilisi, Georgia</p>
+      <p>Portartes Are Drawn by ikuzui And exiolohergrin</p>
+      <div class="footer-icon" aria-label="Re-Movie Logo">
+        <a href="https://tbcbank.ge/ka/tbc-education" target="_blank"><img class="tbc-logo" src="../images/tbc-logo (1).png" alt="icon"></a>
+      </div>
+    </div>
+
+    <div class="footer-center">
+      <nav class="footer-nav">
+        <a href="../index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="news.html">News</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
+    <div class="footer-right">
+        <a href="#" aria-label="Facebook" class="social-icon"><img src="../images/instagram.png" alt=""></a>
+        <a href="#" aria-label="Twitter" class="social-icon"><img src="../images/facebook.png" alt=""></i></a>
+        <a href="#" aria-label="Instagram" class="social-icon"><img src="../images/twitter.png" alt=""></i></a>
+    </div>
+  </div>
+</footer>
+
+        
+</body>
+</html>
+
+        

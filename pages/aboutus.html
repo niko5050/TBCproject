@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Re-Movies</title>
+    <link rel="stylesheet" href="../cs/reset.css">
+    <link rel="stylesheet" href="../cs/characters.css">
+    <link rel="stylesheet" href="../cs/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/black-hole.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+
+    <style>
+      .main-ul li a {
+     color:#2d076e;
+    text-align: center;
+    width: 100%;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    transition: color 0.3s ease;
+     }
+     
+     .nav-bar {
+      height: 66px;
+     }
+
+     .navigation-li:not(.main) a  {
+      position: relative;
+      left: 80px;
+      font-size: 21px;
+     }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <nav>
+                <ul class="main-ul">
+                    <li class="navigation-li main"><a href="../index.html"> <img src="../images/house-solid (1).svg" alt="home" class="nav-icon"></a></li>
+                    <li class="navigation-li movies"><a href="characters.html">Actors</a></li>
+                    <li class="navigation-li simbolism"><a href="simbolism.html">Symbolism</a></li>
+                    <li class="navigation-li news"><a href="news.html">News</a></li>
+                    <li class="navigation-li aboutus"><a class="active" href="aboutus.html">About us</a></li>
+                    <li class="navigation-li services"><a href="services.html">Services</a></li>
+                    <li class="navigation-li contact"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="about-section">
+            <div>
+                <h1 class="about-title">About Us</h1>
+                <img class="about-logo" src="../images/black-hole.png" alt="logo">
+                <h2 class="about-name">Re-Mvoies</h2>
+                <p class="about-p">Nolan’s Films Reimagined for You</p>
+                <p></p>
+            </div>
+
+            <script>
+  const aboutTitle = document.querySelector('.about-title');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  });
+
+  observer.observe(aboutTitle);
+</script>
+
+
+        </section>
+        <section style="height: 1100px;">
+            <img class="about-img-2" src="https://images.unsplash.com/photo-1633262838810-c17e4fbfd7a7?q=80&w=699&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <img class="about-img" src="https://images.unsplash.com/photo-1642522044754-bd69677a4d69?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <img class="about-image-3" src="https://images.unsplash.com/photo-1538152911114-73f1aa6d6128?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <img class="about-image-4" src="https://images.unsplash.com/photo-1614946973832-3363a78a2026?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <p class="about-main-p">  Welcome to Re-Movies, a creative project born out of passion for storytelling and cinema. Founded on July 18, 2025, Re-Movies was created with a clear mission: to help people rediscover, rethink, and reimagine the films of Christopher Nolan—one of the most thought-provoking directors of our time.
+Nolan’s films are more than just entertainment. They are puzzles, dreams, and philosophies wrapped in visual brilliance. Yet many viewers leave the theater with unanswered questions, or miss the deeper meaning behind the complexity. That’s where Re-Movies steps in.
+Our website serves as a gateway into Nolan's cinematic universe. From symbolic analysis and character breakdowns to hidden themes and real-world inspirations, we provide detailed insights that elevate your understanding of each film. Whether you're a lifelong fan or a first-time viewer, we offer something new with every visit.
+But Re-Movies is more than just a fan site. It’s a community of thinkers, dreamers, and storytellers who believe that film has the power to change how we see the world—and ourselves. Our design reflects the elegance and depth of Nolan’s work, with interactive pages, curated visuals, and symbolism that speaks to both heart and mind.
+So whether you're diving into the dream layers of Inception, exploring the paradoxes of Interstellar, or decoding the secrets of The Prestige, Re-Movies is here to guide you—frame by frame, clue by clue.
+
+Welcome to the deeper side of cinema.</p>
+        </section>
+    </main>
+   <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <p>© 2025 Re-Movie. All rights reserved.</p>
+      <p>Contact: nikoloz.kveladzete03@geolab.edu.ge | +995 551 533 502</p>
+      <p>Address: Freedom Square, Tbilisi, Georgia</p>
+      <p>Portraits Are Drawn by ikuzui and exiolohergrin</p>
+
+     
+      <div class="footer-icon" aria-label="Re-Movie Logo">
+        <a href="https://tbcbank.ge/ka/tbc-education" target="_blank">
+          <img class="tbc-logo" src="../images/tbc-logo (1).png" alt="icon">
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-center">
+      <nav class="footer-nav">
+        <a href="../index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="news.html">News</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
+    <div class="footer-right">
+      <a href="#" aria-label="Facebook" class="social-icon">
+        <img src="../images/facebook.png" alt="Facebook">
+      </a>
+      <a href="#" aria-label="Twitter" class="social-icon">
+        <img src="../images/twitter.png" alt="Twitter">
+      </a>
+      <a href="#" aria-label="Instagram" class="social-icon">
+        <img src="../images/instagram.png" alt="Instagram">
+      </a>
+    </div>
+  </div>
+</footer>
+
+        
+</body>
+</html>
+
+      

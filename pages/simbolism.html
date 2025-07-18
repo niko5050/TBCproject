@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbolism | Re-Movies</title>
+    <link rel="stylesheet" href="../cs/reset.css">
+    <link rel="stylesheet" href="../cs/simbolism.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/black-hole.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <nav>
+                <ul class="main-ul">
+                    <li class="navigation-li main"><a href="../index.html"> <img src="../images/house-solid (1).svg" alt="home" class="nav-icon"></a></li>
+                    <li class="navigation-li movies"><a href="characters.html">Actors</a></li>
+                    <li class="navigation-li simbolism"><a class="active" href="simbolism.html">Symbolism</a></li>
+                    <li class="navigation-li news" ><a href="news.html">News</a></li>
+                    <li class="navigation-li aboutus"><a href="aboutus.html">About us</a></li>
+                    <li class="navigation-li services"><a href="services.html">Services</a></li>
+                    <li class="navigation-li contact"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="symbolism-hero-title">Symbols Within the Mind of Nolan</h1>
+        <script>
+  const bigTitle = document.querySelector('.symbolism-hero-title');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {  
+      if (entry.isIntersecting) {
+        bigTitle.classList.add('visible');
+      } else {
+        bigTitle.classList.remove('visible'); 
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+
+observer.observe(bigTitle);
+        </script>
+
+        <div class="symbolism-grid">
+             <div class="symbol-card">
+                 <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b6a2ebcd-0aa0-49d3-9d7f-a8f773d85f46/d2zac2c-2e198d15-224a-44fe-b67b-8172e9428c85.jpg/v1/fit/w_670,h_609,q_70,strp/inception_by_fuelavriling_d2zac2c-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjA5IiwicGF0aCI6IlwvZlwvYjZhMmViY2QtMGFhMC00OWQzLTlkN2YtYThmNzczZDg1ZjQ2XC9kMnphYzJjLTJlMTk4ZDE1LTIyNGEtNDRmZS1iNjdiLTgxNzJlOTQyOGM4NS5qcGciLCJ3aWR0aCI6Ijw9NjcwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.DjJ8YFx73AKdYqxYWAhq9S-u8FaW6jYlAs_vFfbCmwg" alt="">
+                 <div class="overlay"><p>"A fragile anchor to reality, <br>the spinning top blurs the line between dreams <br>and truth—reminding us how perception shapes existence."</p></div>
+             </div>
+              <div class="symbol-card">
+                 <img src="https://images.unsplash.com/photo-1698079996365-99e892089fdd?q=80&w=1113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                 <div class="overlay"><p>"Behind every mask lies a hidden identity, <br>revealing the duality of heroism and <br>chaos in Gotham’s eternal battle"</p></div>
+             </div>
+              <div class="symbol-card">
+                 <img src="https://images.unsplash.com/photo-1676030675162-a92d259ecf46?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                 <div class="overlay"><p>"b"A symbol of mankind’s power and peril, <br>the bomb embodies the fine line between <br>creation and destruction."</p></div>
+             </div>
+              <div class="symbol-card">
+                 <img src="https://images.unsplash.com/photo-1640984756059-7303641db7cd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                 <div class="overlay"><p>"A gateway to the unknown, <br>the black hole challenges the limits of time and space, <br>reflecting humanity’s endless quest for survival"</p></div>
+             </div>
+              <div class="symbol-card">
+                 <img src="https://images.unsplash.com/photo-1627808963990-154c9bf88f0f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                 <div class="overlay"><p>"Mirrors reflect not just faces, <br>but illusions—exposing the dark art <br> of deception beneath the showmanship."</p></div>
+             </div>
+              <div class="symbol-card">
+                 <img src="https://images.unsplash.com/photo-1679143877883-54d13ff75b29?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                 <div class="overlay"><p>"A tangled maze mirrors the fragmented mind, <br>capturing the confusion and struggle to <br>find truth in shattered memories"</p></div>
+             </div>
+        </div>
+
+    </main>
+  
+     <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <p>© 2025 Re-Movie. All rights reserved.</p>
+      <p>Contact: nikoloz.kveladzete03@geolab.edu.ge | +995 551 533 502</p>
+      <p>Address: Freedom Square, Tbilisi, Georgia</p>
+      <p>Portraits Are Drawn by ikuzui and exiolohergrin</p>
+
+      
+      <div class="footer-icon" aria-label="Re-Movie Logo">
+        <a href="https://tbcbank.ge/ka/tbc-education" target="_blank">
+          <img class="tbc-logo" src="../images/tbc-logo (1).png" alt="icon">
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-center">
+      <nav class="footer-nav">
+        <a href="../index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="news.html">News</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
+    <div class="footer-right">
+      <a href="#" aria-label="Facebook" class="social-icon">
+        <img src="../images/facebook.png" alt="Facebook">
+      </a>
+      <a href="#" aria-label="Twitter" class="social-icon">
+        <img src="../images/twitter.png" alt="Twitter">
+      </a>
+      <a href="#" aria-label="Instagram" class="social-icon">
+        <img src="../images/instagram.png" alt="Instagram">
+      </a>
+    </div>
+  </div>
+</footer>
+
+  
+        
+</body>
+</html>
+
+

@@ -1,0 +1,73 @@
+body, html {
+  height: 100%;
+  font-family: 'Cormorant Upright', serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Better quality background image */
+body {
+  background-image: url('https://images.unsplash.com/photo-1562477694-77c9d6c067bd?q=100&w=2000&auto=format&fit=crop&ixlib=rb-4.1.0');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  image-rendering: auto;
+}
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 40px 30px;
+  border-radius: 20px;
+  width: 350px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.login-box h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #d3bfff;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #1f1f1f;
+  color: white;
+  font-size: 16px;
+}
+
+.login-box input::placeholder {
+  color: #aaa;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #500caa;
+}
+
+
+.login-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgba(106, 13, 173, 0.6); /* purple glow */
+  transition: all 0.3s ease-in-out;
+}

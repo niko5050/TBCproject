@@ -1,0 +1,306 @@
+.main-ul li a.active {
+  color: white;
+}
+.main-ul {
+    position: absolute;
+    font-weight: 300;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    text-transform: uppercase;
+}
+
+.main-ul li a {
+    color:#2e0770;
+    text-align: center;
+    width: 100%;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    transition: color 0.3s ease;
+}
+
+.main-ul li a:hover {
+  color: white;
+}
+
+.navigation-li:not(.main) a {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-right: 0;
+}
+
+
+.navigation-li a {
+     display: inline-block;
+      margin-right: 20px;
+      text-decoration: none;
+      color: #333;
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+}
+.nav-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 15px 0px 15px 0px;
+      z-index: 1000;
+      width: 100%;
+      height: 60px;
+      background-color:#c2c0c0c5;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);}
+
+.navigation-li.main a {
+  display: inline-block;
+  text-align: left;
+  width: auto;
+  margin-right: 20px;
+  gap: 0;
+  width: 400px;
+  padding-left: 50px;
+}
+
+.main-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.navigation-li {
+  min-width: 120px;
+  text-align: center;
+}
+
+.nav-icon {
+  width: 35px;
+  vertical-align: top;
+  margin-right: 30px;
+  transition: 0.3s ;
+}
+
+.nav-icon:hover {
+  filter: brightness(0) invert(1);
+  width: 40px; 
+}
+
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #020024;
+background: linear-gradient(42deg,rgba(2, 0, 36, 1) 0%, rgba(86, 1, 112, 1) 55%, rgba(55, 0, 133, 1) 100%);
+  padding: 40px;
+}
+
+.contact-box {
+  background: #f2f2f2; /* Light box */
+  color: #111;
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.contact-box h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Cormorant Upright', serif;
+}
+
+.contact-box img.contact-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.contact-box p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  resize: none;
+  font-family: Arial, sans-serif;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+  padding: 14px;
+  border: none;
+  background: #222;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: "Cormorant Upright", serif;
+    cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 10px rgba(111, 0, 255, 0.6);
+}
+
+.contact-form button:hover {
+  background: #444;
+}
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-box {
+  animation: fadeIn 1s ease-out forwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.site-footer {
+  background-color: #000000;
+  color: #ccc;
+  padding: 40px 60px;
+  font-family: 'Cormorant Upright', serif;
+  font-size: 16px;
+  border-top: 1px solid #333;
+  min-height: 220px;  /* bigger footer height */
+  position: relative; /* for positioning the icon */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* align top instead of center for paragraphs */
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-left {
+  flex: 1 1 300px;
+  position: relative; /* for footer-icon positioning */
+}
+
+.footer-left p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+/* Icon bottom-left inside footer-left */
+.footer-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 32px;
+  color: #6a0dad; /* purple color */
+}
+
+/* Center nav */
+.footer-center {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-nav a {
+  color: #ccc;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.footer-nav a:hover {
+  color: #6a0dad;
+}
+
+/* Right social icons */
+.footer-right {
+  flex: 1 1 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-right a.social-icon img {
+  width: 20px;
+}
+
+
+.footer-right a.social-icon:hover {
+  color: #6a0dad;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 800px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .footer-left, .footer-center, .footer-right {
+    flex: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-left {
+    position: static;
+  }
+  
+  .footer-icon {
+    position: static;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  
+  .footer-right {
+    justify-content: center;
+  }
+}
+
+.tbc-logo {
+  width: 80px;
+  position: relative;
+  left: -270px;
+}
+
+
