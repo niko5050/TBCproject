@@ -97,7 +97,7 @@ background: linear-gradient(42deg,rgba(2, 0, 36, 1) 0%, rgba(86, 1, 112, 1) 55%,
 }
 
 .contact-box {
-  background: #f2f2f2; /* Light box */
+  background: #f2f2f2; 
   color: #111;
   padding: 40px;
   max-width: 600px;
@@ -196,8 +196,8 @@ background: linear-gradient(42deg,rgba(2, 0, 36, 1) 0%, rgba(86, 1, 112, 1) 55%,
   font-family: 'Cormorant Upright', serif;
   font-size: 16px;
   border-top: 1px solid #333;
-  min-height: 220px;  /* bigger footer height */
-  position: relative; /* for positioning the icon */
+  min-height: 220px;  
+  position: relative;
 }
 
 .footer-container {
@@ -205,14 +205,14 @@ background: linear-gradient(42deg,rgba(2, 0, 36, 1) 0%, rgba(86, 1, 112, 1) 55%,
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* align top instead of center for paragraphs */
+  align-items: flex-start; 
   flex-wrap: wrap;
   gap: 30px;
 }
 
 .footer-left {
   flex: 1 1 300px;
-  position: relative; /* for footer-icon positioning */
+  position: relative; 
 }
 
 .footer-left p {
@@ -220,16 +220,16 @@ background: linear-gradient(42deg,rgba(2, 0, 36, 1) 0%, rgba(86, 1, 112, 1) 55%,
   line-height: 1.5;
 }
 
-/* Icon bottom-left inside footer-left */
+
 .footer-icon {
   position: absolute;
   bottom: 0;
   left: 0;
   font-size: 32px;
-  color: #6a0dad; /* purple color */
+  color: #6a0dad;
 }
 
-/* Center nav */
+
 .footer-center {
   flex: 1 1 300px;
   display: flex;
@@ -250,7 +250,7 @@ background: linear-gradient(42deg,rgba(2, 0, 36, 1) 0%, rgba(86, 1, 112, 1) 55%,
   color: #6a0dad;
 }
 
-/* Right social icons */
+
 .footer-right {
   flex: 1 1 200px;
   display: flex;
@@ -268,7 +268,7 @@ background: linear-gradient(42deg,rgba(2, 0, 36, 1) 0%, rgba(86, 1, 112, 1) 55%,
   color: #6a0dad;
 }
 
-/* Responsive for smaller screens */
+
 @media (max-width: 800px) {
   .footer-container {
     flex-direction: column;
